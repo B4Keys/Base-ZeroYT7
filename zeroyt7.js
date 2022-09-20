@@ -1,12 +1,12 @@
-//NEW BASE BY ZERO YT7
+//NEW BASE BY 4K Sanzz
 //RECODE SESUKA HATIMU JANGAN HPUS CREATOR NYA
 //MAAF BASE NYA JELEK
 
 //FOLLOW ALL SOSIAL MEDIAML ME
-//YOUTUBE : Zero YT7
-//INSTAGRAM : @Zero_YT7
-//TIKTOK : @_zeroyt7
-//GITHUB : Zero-YT7
+//YOUTUBE : 4KSanzz
+//INSTAGRAM : @4k.sanz
+//TIKTOK : @4k.sanzz
+//GITHUB : B4Keys
 
 let { fetchJson, kyun, fetchText } = require('./lib/fetcher')
 let { color, bgcolor } = require('./lib/color')
@@ -50,7 +50,7 @@ let pendaftar = JSON.parse(fs.readFileSync('./database/user.json'))
 
 //━━━━━━━━━━━━━━━[ SETTING ]━━━━━━━━━━━━━━━━━//
 
-owner = setting.OwnerNumber
+owner = setting.081236167286
 botname = setting.BotName
 zerokey = setting.ZeroKey
 ownername = setting.OwnerName
@@ -373,7 +373,7 @@ if (isCmd && !isUser){
 
 switch (command) {
 	case 'menu':
-	gambar = fs.readFileSync('./zeroyt7/zero.jpg')
+	gambar = fs.readFileSync('./https://drive.google.com/file/d/174iDjvX9RjtBFonBM9CFVc69OugR0ZVf/view?usp=drivesdk')
                    timestamp = speed();
 				latensi = speed() - timestamp	
               menunya = 
@@ -381,8 +381,8 @@ switch (command) {
 Saya ${botname} Yg Siap Membantu Anda Dalam Kinerja Whatsapp Agar Mempermudah Seperti Membuat Sticker , Dll
 
 ╭─❒ 「 Bot Info 」 ❒
-├ Nama Bot : ${botname}
-├ Nama Owner : ${ownername}
+├ Nama Bot : ${4keys3s}
+├ Nama Owner : ${4ksanzz}
 ├ Prefix : Multi Prefix
 ├ Nomor Owner : ${owner.split('@')[0]}
 ├ Runtime : ${runtime(process.uptime())}
@@ -427,7 +427,7 @@ Saya ${botname} Yg Siap Membantu Anda Dalam Kinerja Whatsapp Agar Mempermudah Se
 │ あ ${prefix}report
 └⬣`
 teks =
-`Ini Base Buatan Zero YT7 Silahkan Di Pake Jika Ingin Recode Atau Reupload Tolong Creator Jangan Hpus Tolong Hargai Karya Orang 🙏`
+`Ini Base Buatan 4k YT7 Silahkan Di Pake Jika Ingin Recode Atau Reupload Tolong Creator Jangan Hpus Tolong Hargai Karya Orang 🙏`
 but = [
           { buttonId: `${prefix}infobot`, buttonText: { displayText: '☰ INFO' }, type: 1 },
           { buttonId: `${prefix}owner`, buttonText: { displayText: '☰ OWNER' }, type: 1 }
@@ -686,7 +686,7 @@ if (!isGroup) return reply(mess.only.group)
 if (!isGroupAdmins) return reply(mess.only.admin)
 if (!isBotGroupAdmins) return reply(mess.only.Badmin)
 var value = body.slice(9)
-var group = await zeroyt7.groupMetadata(from)
+var group = await 4keys7.groupMetadata(from)
 var member = group['participants']
 var mem = []
 member.map(async adm => {
@@ -712,7 +712,7 @@ case 'stiker':
 case 's':
 if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 let encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
-let media = await zeroyt7.downloadAndSaveMediaMessage(encmedia, './database/media_user')
+let media = await 4keys7.downloadAndSaveMediaMessage(encmedia, './database/media_user')
 ran = getRandom('.webp')
 await ffmpeg(`./${media}`)
 .input(media)
@@ -832,11 +832,11 @@ let inilist = []
 for (let i of ownerNumber) {
 let vname = zeroyt7.contacts[i] != undefined ? zeroyt7.contacts[i].vname || zeroyt7.contacts[i].notify : undefined
 inilist.push({
-"displayName": 'ZeroYT7',
+"displayName": 'Rkeys7',
 "vcard": 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n'
-+ `FN:${ownername}\n`
-+ `ORG: Creator ${ownername} ;\n`
++ `FN:${4ksanzz}\n`
++ `ORG: Creator ${4k.sanzz} ;\n`
 + `TEL;type=CELL;type=VOICE;waid=${owner}:${owner}\n`
 + 'END:VCARD'.trim()
 })
@@ -888,17 +888,17 @@ reply('Masalah Telah Di Laporkan Ke Owner BOT, Mohon Tunggu Untuk Proses Perbaik
 break
 case 'youtube':
 teks =
-`Nih Youtube Owner Ku Jangan Lupa Di Subscribe Ya https://youtube.com/ZeroYT7`
+`Nih Youtube Owner Ku Jangan Lupa Di Subscribe Ya https://youtube.com/4KSanzz`
 zeroyt7.sendMessage(from, teks, text, {quoted: ftrol})
 break
 case 'instagram':
 teks =
-`Nih Instagram Owner Ku Jangan Lupa Di Follow Ya https://instagram.com/Zero_YT7`
+`Nih Instagram Owner Ku Jangan Lupa Di Follow Ya https://instagram.com/4k.sanz`
 zeroyt7.sendMessage(from, teks, text, {quoted: ftrol})
 break
 case 'tiktok':
 teks =
-`Nih Tiktok Owner Ku Jangan Lupa Di Follow Ya https://tiktok.com/@_zeroyt7`
+`Nih Tiktok Owner Ku Jangan Lupa Di Follow Ya https://tiktok.com/@4k.sanzz`
 zeroyt7.sendMessage(from, teks, text, {quoted: ftrol})
 break
 case 'sourcecode':
@@ -910,8 +910,8 @@ teks =
 ├ Sc Ori = https://github.com/Zero-YT7/Base-ZeroYT7
 ├ Sc Full Fitur = https://youtube.com/ZeroYT7
 ├─────────────────────
-├ Creator Base = Zero YT7
-├ Creator Sc = Zero YT7
+├ Creator Base = 4K X YT7
+├ Creator Sc = 4K X YT7
 └─────────────────────`
 zeroyt7.sendMessage(from, teks, text, {quoted: ftrol})
 break
